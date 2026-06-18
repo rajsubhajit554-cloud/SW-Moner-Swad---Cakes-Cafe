@@ -2,11 +2,9 @@
 window.addEventListener('scroll', () => {
     const navbar = document.querySelector('.navbar');
     if (window.scrollY > 50) {
-        navbar.style.padding = '0.5rem 5%';
-        navbar.style.background = 'rgba(15, 16, 20, 0.95)';
+        navbar.classList.add('scrolled');
     } else {
-        navbar.style.padding = '1rem 5%';
-        navbar.style.background = 'rgba(15, 16, 20, 0.8)';
+        navbar.classList.remove('scrolled');
     }
 });
 
