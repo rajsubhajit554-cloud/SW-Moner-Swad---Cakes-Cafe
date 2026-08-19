@@ -252,7 +252,7 @@ if (document.readyState === 'loading') {
 
 
 
-// Rath Yatra Restaurant Feast Click-to-Activate Animation
+// Independence Day Special Feast Click-to-Activate Animation
 const templeBell = document.getElementById('temple-bell');
 const rathAltar = document.getElementById('rath-feast-altar');
 if (templeBell && rathAltar) {
